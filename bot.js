@@ -4,7 +4,7 @@ var util = require('util');
 var EventEmitter = require('events').EventEmitter;
 var timers = require('timers');
 
-var whatsapi = require('whatsapi');
+var whatsapi = require('whatsapi-republished');
 
 var Dispatcher = require('./lib/dispatcher');
 var Errors = require('./lib/errors');
